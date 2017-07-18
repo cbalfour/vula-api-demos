@@ -50,14 +50,17 @@ The API/s you choose will depend on a number of factors including:
 
 ## Recommendations
 
-* Mobile: Direct REST API, ideally with OAuth 1.0 authentication [*]. 
+### Mobile 
 
-* Web
-..* Javascript/ajax front-end: Direct REST API ideally with OAuth
+Direct REST API, ideally with OAuth 1.0 authentication [*]. 
+
+### Web
+
+* Javascript/ajax front-end: Direct REST API ideally with OAuth
   1.0 authentication. [*] 
-..* Integrated into Sakai web interface but only requiring
+* Integrated into Sakai web interface but only requiring
   limited personal information from: LTI
-..* Integrated into Sakai web interface requiring
+* Integrated into Sakai web interface requiring
   extensive interaction with the Sakai backend: Sakai-WS REST API
 
 
