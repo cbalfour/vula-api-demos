@@ -104,7 +104,8 @@ An authenticated session can be obtained via web login, via the
 appropriate direct API endpoint or via  OAuth 1.0.
 
 ### Endpoints
-[https://vula.uct.ac.za/direct](https://vula.uct.ac.za/direct). 
+[https://vula.uct.ac.za/direct](https://vula.uct.ac.za/direct) This 
+includes basic interface documentation for all endpoints. 
 
 
 ### Example Applications
@@ -120,9 +121,9 @@ It's primary advantage is that it can be used via the Linktool
 functionality. 
 
 ### Endpoints
-* SOAP: [https://vula.uct.ac.za/sakai-ws/soap](https://vula.uct.ac.za/sakai-ws)
-* REST: The end of the above SOAP document includes details of the REST 
-API endpoints.
+* SOAP: [https://vula.uct.ac.za/sakai-ws/soap](https://vula.uct.ac.za/sakai-ws). This includes basic interface documentation for all endpoints.
+* REST: A list of REST endpoints is provided at the end of the above
+  SOAP endpoint documentation. 
 
 
 
