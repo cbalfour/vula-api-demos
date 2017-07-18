@@ -48,6 +48,48 @@ The API/s you choose will depend on a number of factors including:
   authenticating to Sakai or would you prefer to defer this to Sakai
   and receive an already authenticated session to work with? 
 
+## LTI
+
+Learning Tools Interoperability.
+
+Standard for writing platform-agnostic tools. In theory, an LTI
+application written for Sakai should also work with other LTI-compliant
+systems such as Moodle.
+
+It, however, provides very limited access to the Sakai backend and
+is therefore only useful for largely independent applications which 
+require very loose integration.
+
+LTI provides: 
+* A test mechanism between Sakai and your application
+* Integration into the web interface
+* An authenticated and authorized session
+* Some basic information about the user
+* The ability to pass back a score to the gradebook. 
+
+### Advantages
+* Easy to use 
+* Platform-agnostic
+
+### Disadvantages
+* Very limited access 
+
+### Example Applications
+
+* A Simple grant application. LTI is used to authenticate the user and
+  provide basic information for pre-populating some fields of a web form
+  on the 3rd party system. The 3rd party system processes the form,
+  stores the results, determines and communicates the outcome to the
+  user.
+
+* A simple marking system. LTI is used to authenticate the user to the
+  3rd party system. The 3rd party system presents some questions via a
+  web form which the user answers and submits back to the 3rd party
+  system. The 3rd party system evaluates the answers to the questions
+  and returns a single score to an appropriate entry in the gradebook.
+  It is not suitable for a more complex marking system since it can only
+  return a single score to a single gradebook entry.
+
 
 
 
