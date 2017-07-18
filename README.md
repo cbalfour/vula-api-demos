@@ -61,7 +61,7 @@ is therefore only useful for largely independent applications which
 require very loose integration.
 
 LTI provides: 
-* A test mechanism between Sakai and your application
+* A trust mechanism between Sakai and your application
 * Integration into the web interface
 * An authenticated and authorized session
 * Some basic information about the user
@@ -89,6 +89,46 @@ LTI provides:
   and returns a single score to an appropriate entry in the gradebook.
   It is not suitable for a more complex marking system since it can only
   return a single score to a single gradebook entry.
+
+## Direct API
+
+This is a REST HTTP API that can access the majority of the Sakai's 
+functionality. 
+
+Data is returned as JSON or XML.
+
+It is best for stand-alone applications which require only require no 
+integration into the Sakai web interface.
+
+An authenticated session can be obtained via web login, via the
+appropriate direct API endpoint or via  OAuth 1.0.
+
+### Endpoints
+[https://vula.uct.ac.za/direct](https://vula.uct.ac.za/direct). 
+
+
+### Example Applications
+
+* A mobile application. 
+* Ajax web applications. 
+* Scripts. 
+
+## Sakai-WS
+
+This is an older API which provides both a SOAP and REST interface.
+It's primary advantage is that it can be used via the Linktool 
+functionality. 
+
+### Endpoints
+* SOAP: [https://vula.uct.ac.za/sakai-ws/soap](https://vula.uct.ac.za/sakai-ws)
+* REST: The end of the above SOAP document includes details of the REST 
+API endpoints.
+
+
+
+It can be used with the Linktool.
+
+
 
 
 
