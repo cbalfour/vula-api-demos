@@ -48,6 +48,20 @@ The API/s you choose will depend on a number of factors including:
   authenticating to Sakai or would you prefer to defer this to Sakai
   and receive an already authenticated session to work with? 
 
+## Recommendations
+
+* Mobile: Direct REST API, ideally with OAuth 1.0 authentication [*]. 
+
+ Standalone AJAX web application: Direct REST API ideally with OAuth
+  1.0 authentication. [*] 
+
+* Web application integrated into Sakai web interface but only requiring
+  limited personal information from: LTI
+
+* Web application integrated into Sakai web interface requiring
+  extensive interaction with the Sakai backend: Sakai-WS REST API
+
+
 ## LTI
 
 Learning Tools Interoperability.
