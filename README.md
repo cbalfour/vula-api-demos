@@ -36,15 +36,15 @@ Sakai provides a number of APIs.
 
 The API/s you choose will depend on a number of factors including:
 
-* Integration: How closely does the application need to integrate into
+* **Integration**: How closely does the application need to integrate into
   the Sakai web interface? Do you want it to appear as just 
   another function within the Sakai web interface, or will it be a 
   completely separate interface? 
   
-* Data: What datastores does your application need access to? Does it
+* **Data**: What datastores does your application need access to? Does it
   rely on data stored in Sakai or does it use its own data? 
 
-* Authentication and authorization: Do you want to be responsible for
+* **Authentication and authorization**: Do you want to be responsible for
   authenticating to Sakai or would you prefer to defer this to Sakai
   and receive an already authenticated session to work with? 
 
