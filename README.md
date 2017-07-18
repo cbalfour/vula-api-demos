@@ -52,7 +52,7 @@ The API/s you choose will depend on a number of factors including:
 
 * Mobile: Direct REST API, ideally with OAuth 1.0 authentication [*]. 
 
- Standalone AJAX web application: Direct REST API ideally with OAuth
+* Standalone AJAX web application: Direct REST API ideally with OAuth
   1.0 authentication. [*] 
 
 * Web application integrated into Sakai web interface but only requiring
