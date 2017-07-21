@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block head %}
+<title>Error:: LTI Demo</title>
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+
+<h1>Error</h1>
+<p>{{ exception["exception"] }}</p>
+
+{% endblock %}

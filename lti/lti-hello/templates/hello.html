@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% block head %}
+<title>Hello :: LTI Demo</title>
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+
+<p>Hello.</p>
+
+<h2>LTI</h2>
+
+<p>Some data stored in the lti object.</p>
+
+<table>
+    {% for i in ['name', 'nickname', 'user_id', 'role'] %}
+    <tr>
+        <td>{{ i }}</td>
+        <td>{{ lti|attr(i)}}</td>
+    </tr>
+    {% endfor %}
+</table>
+<h2>Session Cookie</h2>
+
+<p>Some data available though the session cookie.</p>
+<table>
+{% for i in session %}
+<tr>
+    <td>{{ i }}</td>
+    <td>{{ session[i] }}</td>
+{% endfor %}
+<table>
+
+
+{% endblock %}
