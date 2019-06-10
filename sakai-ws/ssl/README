@@ -1,0 +1,9 @@
+SSL certificates go here.
+- server.crt
+- server.key
+
+Only a SSL protected page can be iframed into an SSL protected site
+such as vula.
+
+If you use self-signed certificates you will need to convince the 
+browser to trust them before the iframe into vula will work. 
