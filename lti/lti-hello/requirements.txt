@@ -4,7 +4,7 @@ Click==7.0
 cryptography==2.7
 enum34==1.1.6
 Flask==1.0.3
-httplib2==0.10.3
+httplib2==0.18.0
 idna==2.5
 ipaddress==1.0.22
 itsdangerous==1.1.0
