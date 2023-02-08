@@ -1,7 +1,7 @@
 asn1crypto==0.24.0
 cffi==1.12.3
 Click==7.0
-cryptography==3.3.2
+cryptography==39.0.1
 enum34==1.1.6
 Flask==1.0.3
 httplib2==0.19.0
