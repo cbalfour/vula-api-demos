@@ -17,4 +17,4 @@ pycparser==2.19
 PyLTI==0.4.1
 pyOpenSSL==19.0.0
 six==1.12.0
-Werkzeug==0.15.4
+Werkzeug==2.2.3
